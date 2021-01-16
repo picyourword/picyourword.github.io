@@ -22,8 +22,9 @@
           complete mood board from one word.</p>
 
           <div class="search-container">
-            <form action="/action_page.php">
-              <input type="text" placeholder="What's your mood?" name="search">
+            <form method="get" action="http://images.google.com/images">
+              <!--action="/action_page.php"-->
+              <input type="text" placeholder="What's your mood?" name="q">
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>
           </div>
@@ -44,12 +45,6 @@
     <br><br>
     <!--just testing some stuff-->
     <section class="images-panel">
-
-      <form method="get" action="http://images.google.com/images">
-        <input type="text" name="q" />
-        <input type="submit" value="Search Google Images" />
-      </form>
-
       <div class="container">
         <a data-pin-do="embedUser" data-pin-board-width="700" data-pin-scale-height="700" data-pin-scale-width="80" 
         href="https://www.pinterest.ca/artwithflo/"></a>
