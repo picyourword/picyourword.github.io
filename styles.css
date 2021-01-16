@@ -22,10 +22,10 @@ body{
 
 /*search bar*/
 @media screen and (max-width: 600px) {
-    .topnav .search-container {
+    .search-container {
       float: none;
     }
-    .topnav a, .topnav input[type=text], .topnav .search-container button {
+    .search-container button {
       float: none;
       display: block;
       text-align: left;
