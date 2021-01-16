@@ -1,3 +1,7 @@
 body{
     background-color:pink; /*we can have the colour change based on the mood?*/
 }
+.container{
+    width: 100%;
+    margin: 0 auto;
+}
