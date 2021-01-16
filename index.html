@@ -1,14 +1,30 @@
-<html>
-  <body style="background-color:pink;">
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <!--set of characters recognized by the computer-->
+    <!--UTF-8 is also identical to ASCII for English. -->
+    <!--in case you are wondering-->
+    <meta charset="UTF-8">   
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>PicYourWord</title>
+
+  </head>
+  <body style="background-color:pink;"><!--we can have the colour change based on the mood?-->
     <h1>Pic Your Word</h1>
+    <h2><i>A collaborative website developed for Hack The North 2021</i></h2>
     <p>Bring your creative side to life with this assistive website curating a complete mood board from one word.</p>
 
     <div class="topnav">
-      <!--a class="active" href="#home">Home</a>
-      <a href="#about">About</a>
-      <a href="#contact">Contact</a-->
       <input type="text" placeholder="What is your mood?">
     </div>
+
+    <!--just testing some stuff-->>
+    <a data-pin-do="embedBoard" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/pinterest/official-news/"></a>
   </body>
+
+  <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+
 </html>
 
